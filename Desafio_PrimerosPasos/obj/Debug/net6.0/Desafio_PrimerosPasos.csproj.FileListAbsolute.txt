@@ -1,0 +1,15 @@
+C:\Users\Cami Perea\source\repos\Clases C#\Desafio_PrimerosPasos\Desafio_PrimerosPasos\bin\Debug\net6.0\Desafio_PrimerosPasos.exe
+C:\Users\Cami Perea\source\repos\Clases C#\Desafio_PrimerosPasos\Desafio_PrimerosPasos\bin\Debug\net6.0\Desafio_PrimerosPasos.deps.json
+C:\Users\Cami Perea\source\repos\Clases C#\Desafio_PrimerosPasos\Desafio_PrimerosPasos\bin\Debug\net6.0\Desafio_PrimerosPasos.runtimeconfig.json
+C:\Users\Cami Perea\source\repos\Clases C#\Desafio_PrimerosPasos\Desafio_PrimerosPasos\bin\Debug\net6.0\Desafio_PrimerosPasos.dll
+C:\Users\Cami Perea\source\repos\Clases C#\Desafio_PrimerosPasos\Desafio_PrimerosPasos\bin\Debug\net6.0\Desafio_PrimerosPasos.pdb
+C:\Users\Cami Perea\source\repos\Clases C#\Desafio_PrimerosPasos\Desafio_PrimerosPasos\obj\Debug\net6.0\Desafio_PrimerosPasos.csproj.AssemblyReference.cache
+C:\Users\Cami Perea\source\repos\Clases C#\Desafio_PrimerosPasos\Desafio_PrimerosPasos\obj\Debug\net6.0\Desafio_PrimerosPasos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cami Perea\source\repos\Clases C#\Desafio_PrimerosPasos\Desafio_PrimerosPasos\obj\Debug\net6.0\Desafio_PrimerosPasos.AssemblyInfoInputs.cache
+C:\Users\Cami Perea\source\repos\Clases C#\Desafio_PrimerosPasos\Desafio_PrimerosPasos\obj\Debug\net6.0\Desafio_PrimerosPasos.AssemblyInfo.cs
+C:\Users\Cami Perea\source\repos\Clases C#\Desafio_PrimerosPasos\Desafio_PrimerosPasos\obj\Debug\net6.0\Desafio_PrimerosPasos.csproj.CoreCompileInputs.cache
+C:\Users\Cami Perea\source\repos\Clases C#\Desafio_PrimerosPasos\Desafio_PrimerosPasos\obj\Debug\net6.0\Desafio_PrimerosPasos.dll
+C:\Users\Cami Perea\source\repos\Clases C#\Desafio_PrimerosPasos\Desafio_PrimerosPasos\obj\Debug\net6.0\refint\Desafio_PrimerosPasos.dll
+C:\Users\Cami Perea\source\repos\Clases C#\Desafio_PrimerosPasos\Desafio_PrimerosPasos\obj\Debug\net6.0\Desafio_PrimerosPasos.pdb
+C:\Users\Cami Perea\source\repos\Clases C#\Desafio_PrimerosPasos\Desafio_PrimerosPasos\obj\Debug\net6.0\Desafio_PrimerosPasos.genruntimeconfig.cache
+C:\Users\Cami Perea\source\repos\Clases C#\Desafio_PrimerosPasos\Desafio_PrimerosPasos\obj\Debug\net6.0\ref\Desafio_PrimerosPasos.dll
