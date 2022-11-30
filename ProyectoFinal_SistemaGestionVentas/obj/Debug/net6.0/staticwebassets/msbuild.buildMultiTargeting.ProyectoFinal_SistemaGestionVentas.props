@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\ProyectoFinal_SistemaGestionVentas.props" />
+</Project>
