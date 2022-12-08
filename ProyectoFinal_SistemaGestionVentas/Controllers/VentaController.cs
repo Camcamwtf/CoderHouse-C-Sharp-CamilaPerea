@@ -11,11 +11,11 @@ namespace ProyectoFinal_SistemaGestionVentas.Controllers
         private VentaRepository repository = new VentaRepository();
 
         [HttpGet]
-        public IActionResult Get()
+        public ActionResult<List<Venta>> GetVenta()
         {
             try
             {
-                List<Venta> lista = repository.listarVentas();
+                List<Venta> lista = repository.ListarVentas();
                 return Ok(lista);
             }
             catch (Exception ex)
@@ -24,16 +24,102 @@ namespace ProyectoFinal_SistemaGestionVentas.Controllers
             }
         }
 
-        [HttpPost]
-        public IActionResult Post()
+        [HttpGet("{Id}")]
+        public ActionResult<Venta> Get(int Id)
         {
-            return Ok();
+            try
+            {
+                Venta? venta = repository.ObtenerVenta(Id);
+                if (venta != null)
+                {
+                    return Ok(venta);
+                }
+                else
+                {
+                    return NotFound("La venta no fue encontrada.");
+                }
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+        }
+
+        [HttpGet("GetVenta/{Id}")]
+        public ActionResult<Venta> GetVenta(int Id)
+        {
+            try
+            {
+                Venta? venta = repository.ObtenerVenta(Id);
+                if (venta != null)
+                {
+                    return Ok(venta);
+                }
+                else
+                {
+                    return NotFound("La venta no fue encontrada.");
+                }
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+        }
+
+        [HttpPost]
+        public ActionResult InsertarVenta([FromBody] Venta venta)
+        {
+            try
+            {
+                Venta? ventaCreada = repository.CrearVenta(venta);
+                return StatusCode(StatusCodes.Status201Created, ventaCreada);
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+        }
+
+        [HttpPut("{Id}")]
+        public ActionResult<Venta> ActualizarVenta(int Id, [FromBody] Venta ventaParaActualizar)
+        {
+            try
+            {
+                Venta? ventaActualizado = repository.ModificarVenta(Id, ventaParaActualizar);
+                if (ventaActualizado != null)
+                {
+                    return Ok(ventaActualizado);
+                }
+                else
+                {
+                    return NotFound("La venta no fue encontrada.");
+                }
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
         }
 
         [HttpDelete]
-        public IActionResult Delete()
+        public ActionResult EliminaVenta([FromBody] int Id)
         {
-            return Ok();
+            try
+            {
+                bool verificaEliminacion = repository.EliminarVenta(Id);
+                if (verificaEliminacion)
+                {
+                    return Ok();
+                }
+                else
+                {
+                    return NotFound("La venta no fue encontrada.");
+                }
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
         }
     }
 }
